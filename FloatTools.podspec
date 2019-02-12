@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'FloatTools'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of FloatTools.'
+  s.version          = '0.0.1'
+  s.summary          = 'Float plus'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -21,15 +21,16 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/ni.tanineninede@yahoo.com.tw/FloatTools'
+  s.homepage         = 'https://github.com/fattybooboo/FloatTools'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'ni.tanineninede@yahoo.com.tw' => 'fattyboobootw@gmail.com' }
-  s.source           = { :git => 'https://github.com/ni.tanineninede@yahoo.com.tw/FloatTools.git', :tag => s.version.to_s }
+  s.author           = { 'Wei' => 'fattyboobootw@gmail.com' }
+  s.source           = { :git => 'https://github.com/fattybooboo/FloatTools.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '9.3'
 
+  s.swift_version = '4.0'
   s.source_files = 'FloatTools/Classes/**/*'
   
   # s.resource_bundles = {

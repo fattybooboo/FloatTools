@@ -1,0 +1,6 @@
+framework module FloatTools {
+  umbrella header "FloatTools-umbrella.h"
+
+  export *
+  module * { export * }
+}

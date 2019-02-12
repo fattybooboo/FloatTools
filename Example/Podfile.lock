@@ -1,0 +1,16 @@
+PODS:
+  - FloatTools (0.1.0)
+
+DEPENDENCIES:
+  - FloatTools (from `../`)
+
+EXTERNAL SOURCES:
+  FloatTools:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FloatTools: 36d2cc18715a6938319af8eb9f851243cb77767a
+
+PODFILE CHECKSUM: 84f66ee28f12b07fcd3aa7491c797f987c85926c
+
+COCOAPODS: 1.6.0.beta.2

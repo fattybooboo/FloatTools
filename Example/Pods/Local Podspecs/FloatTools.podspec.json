@@ -1,0 +1,22 @@
+{
+  "name": "FloatTools",
+  "version": "0.1.0",
+  "summary": "A short description of FloatTools.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/ni.tanineninede@yahoo.com.tw/FloatTools",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "ni.tanineninede@yahoo.com.tw": "fattyboobootw@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/ni.tanineninede@yahoo.com.tw/FloatTools.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "FloatTools/Classes/**/*"
+}
