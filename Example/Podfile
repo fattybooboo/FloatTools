@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'FloatTools_Example' do
+  pod 'FloatTools', :path => '../'
+
+  target 'FloatTools_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
