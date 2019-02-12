@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		0EC280569A6EDB2504495B57D92E6ED6 /* Pods-FloatTools_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C5962A99DA5E7BAB3B4FAD2B68C372E /* Pods-FloatTools_Example-dummy.m */; };
 		1CBB94615322CAE45228F489D1EE7047 /* FloatTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F5D7099A64C8B62D939083B9D8122DE /* FloatTools.swift */; };
+		2A0C1AFB2212F9C200F0B347 /* MyUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A0C1AFA2212F9C200F0B347 /* MyUtils.swift */; };
 		360056E40FC1D2FDAD0F57B6B5621BB5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
 		42EFA50050C0283CC3E6C4ED2ECE5B05 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
 		6022B7284273139D9CC7B265371011B4 /* FloatTools-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C86C62903EBDAA3C86D99ABA4AF30E7 /* FloatTools-dummy.m */; };
@@ -40,6 +41,7 @@
 		013CE18DAF94AE4AC0FB85C732B42539 /* FloatTools.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FloatTools.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0C5962A99DA5E7BAB3B4FAD2B68C372E /* Pods-FloatTools_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FloatTools_Example-dummy.m"; sourceTree = "<group>"; };
 		21CAE3FFD549B352F22DA89E746E9EE2 /* Pods-FloatTools_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FloatTools_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		2A0C1AFA2212F9C200F0B347 /* MyUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyUtils.swift; sourceTree = "<group>"; };
 		2AA0AA264D53164768A8D4A2E5CBC3E4 /* Pods_FloatTools_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FloatTools_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C5EBED1FB2159A9BF3CC2B6CA022EE4 /* Pods-FloatTools_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FloatTools_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		2FC9B03D244D0443FB902ADAD5BD8B87 /* FloatTools.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = FloatTools.podspec; sourceTree = "<group>"; tabWidth = 2; };
@@ -102,6 +104,7 @@
 		01BAEF8B99128CE96DEA3E3AD54FAA30 /* FloatTools */ = {
 			isa = PBXGroup;
 			children = (
+				2A0C1AFA2212F9C200F0B347 /* MyUtils.swift */,
 				6F5D7099A64C8B62D939083B9D8122DE /* FloatTools.swift */,
 				7D5A25B22774EEDF053A43809C533838 /* Pod */,
 				3E60AA5A5EFAEECFECDF9E78057A7F22 /* Support Files */,
@@ -373,6 +376,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6022B7284273139D9CC7B265371011B4 /* FloatTools-dummy.m in Sources */,
+				2A0C1AFB2212F9C200F0B347 /* MyUtils.swift in Sources */,
 				1CBB94615322CAE45228F489D1EE7047 /* FloatTools.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
